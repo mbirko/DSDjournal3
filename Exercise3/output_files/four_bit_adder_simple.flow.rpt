@@ -1,5 +1,5 @@
 Flow report for four_bit_adder_simple
-Thu Sep 23 11:20:17 2021
+Thu Sep 23 11:22:32 2021
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -40,7 +40,7 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Thu Sep 23 11:20:17 2021           ;
+; Flow Status                        ; Successful - Thu Sep 23 11:22:32 2021           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; four_bit_adder_simple                           ;
 ; Top-level Entity Name              ; four_bit_adder_simple_tester                    ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+-----------------------+
 ; Option            ; Setting               ;
 +-------------------+-----------------------+
-; Start date & time ; 09/23/2021 11:20:06   ;
+; Start date & time ; 09/23/2021 11:22:21   ;
 ; Main task         ; Compilation           ;
 ; Revision Name     ; four_bit_adder_simple ;
 +-------------------+-----------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +-------------------------------------+---------------------------------+-----------------------+------------------------------+----------------+
 ; Assignment Name                     ; Value                           ; Default Value         ; Entity Name                  ; Section Id     ;
 +-------------------------------------+---------------------------------+-----------------------+------------------------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 220669430317562.163238880629572 ; --                    ; --                           ; --             ;
+; COMPILER_SIGNATURE_ID               ; 220669430317562.163238894111604 ; --                    ; --                           ; --             ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; On                              ; --                    ; --                           ; eda_simulation ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                     ; --                    ; --                           ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)       ; <None>                ; --                           ; --             ;
@@ -94,12 +94,12 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:02     ; 1.0                     ; 4635 MB             ; 00:00:01                           ;
-; Fitter                    ; 00:00:04     ; 1.0                     ; 4878 MB             ; 00:00:04                           ;
-; Assembler                 ; 00:00:02     ; 1.0                     ; 4556 MB             ; 00:00:02                           ;
-; TimeQuest Timing Analyzer ; 00:00:00     ; 1.0                     ; 4535 MB             ; 00:00:01                           ;
+; Analysis & Synthesis      ; 00:00:01     ; 1.0                     ; 4626 MB             ; 00:00:01                           ;
+; Fitter                    ; 00:00:04     ; 1.0                     ; 4880 MB             ; 00:00:04                           ;
+; Assembler                 ; 00:00:01     ; 1.0                     ; 4556 MB             ; 00:00:02                           ;
+; TimeQuest Timing Analyzer ; 00:00:01     ; 1.0                     ; 4535 MB             ; 00:00:01                           ;
 ; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4507 MB             ; 00:00:00                           ;
-; Total                     ; 00:00:09     ; --                      ; --                  ; 00:00:08                           ;
+; Total                     ; 00:00:08     ; --                      ; --                  ; 00:00:08                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
