@@ -1,5 +1,5 @@
 EDA Netlist Writer report for four_bit_adder_simple
-Thu Sep 23 11:22:32 2021
+Thu Sep 23 13:49:23 2021
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -36,7 +36,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Thu Sep 23 11:22:32 2021 ;
+; EDA Netlist Writer Status ; Successful - Thu Sep 23 13:49:23 2021 ;
 ; Revision Name             ; four_bit_adder_simple                 ;
 ; Top-level Entity Name     ; four_bit_adder_simple_tester          ;
 ; Family                    ; Cyclone II                            ;
@@ -65,13 +65,13 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------------------+---------------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Simulation Generated Files                                                                                                                             ;
-+--------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Generated Files                                                                                                                                        ;
-+--------------------------------------------------------------------------------------------------------------------------------------------------------+
-; C:/Users/msldk/Desktop/Uni/SoftwareTeknologi/2Semester/DSD/DSD_exercises/Exercise_3/DSDjournal3/Exercise3/simulation/modelsim/four_bit_adder_simple.vo ;
-+--------------------------------------------------------------------------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------+
+; Simulation Generated Files                                                                                          ;
++---------------------------------------------------------------------------------------------------------------------+
+; Generated Files                                                                                                     ;
++---------------------------------------------------------------------------------------------------------------------+
+; C:/Users/mathias/Documents/Uni/2sem/DSD/journal3/DSDjournal3/Exercise3/simulation/modelsim/four_bit_adder_simple.vo ;
++---------------------------------------------------------------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -80,13 +80,13 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Thu Sep 23 11:22:31 2021
+    Info: Processing started: Thu Sep 23 13:49:22 2021
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off Exercise3 -c four_bit_adder_simple
-Info (204019): Generated file four_bit_adder_simple.vo in folder "C:/Users/msldk/Desktop/Uni/SoftwareTeknologi/2Semester/DSD/DSD_exercises/Exercise_3/DSDjournal3/Exercise3/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file four_bit_adder_simple.vo in folder "C:/Users/mathias/Documents/Uni/2sem/DSD/journal3/DSDjournal3/Exercise3/simulation/modelsim/" for EDA simulation tool
 Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4519 megabytes
-    Info: Processing ended: Thu Sep 23 11:22:32 2021
+    Info: Peak virtual memory: 4514 megabytes
+    Info: Processing ended: Thu Sep 23 13:49:23 2021
     Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:00
+    Info: Total CPU time (on all processors): 00:00:01
 
 

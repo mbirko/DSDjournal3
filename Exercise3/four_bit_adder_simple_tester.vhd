@@ -10,10 +10,10 @@ entity four_bit_adder_simple_tester is
 	port
 	(
 		-- Input ports
-		SW	: in  std_logic_vector(8 downto 1); 	-- Der bruges 2 x 4 switches til 
+		SW	: in  std_logic_vector(8 downto 0); 	-- Der bruges 2 x 4 switches til 
 																-- de to 4-bit tal A og B og 1 switch til carry ind 		
 		-- Output ports
-		LEDR	: out std_logic_vector(4 downto 1) 	-- Der bruges 4 LEDer til 4-bit tal sum 
+		LEDR	: out std_logic_vector(4 downto 0) 	-- Der bruges 4 LEDer til 4-bit tal sum 
 	);															-- Der bruges 1 LED til carry out
 end four_bit_adder_simple_tester;
 
@@ -22,14 +22,14 @@ architecture implementation of four_bit_adder_simple_tester is
 begin
 
 -- direkte instancering af 4-bit adderen
-DUT: entity four_bit_adder_simple
+DUT: entity four_bit_adder(signed_imp)
 
 port map	
-	(	
+	(	cin(0) => sw(0),
 		a => SW( 4 downto 1),	-- 4-bit tal A bindes til switches 4, 3, 2 og 1 
 		b => SW(8 downto 5),		-- 4-bit tal B bindes til switches 8, 7, 6 og 5
-		sum => LEDR(4 downto 1)-- 4-bit tal sum bindes til LEDer 3, 3, 1 og 0	Cout => LEDR(4)			-- Carry ud bindes til LED 4
-		
+		sum => LEDR(3 downto 0),-- 4-bit tal sum bindes til LEDer 3, 3, 1 og 0	Cout => LEDR(4)			-- Carry ud bindes til LED 4
+		cout => LEDR(4)
 	);	
 
 end implementation;

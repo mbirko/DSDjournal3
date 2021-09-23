@@ -218,7 +218,7 @@ GND*                         : AE19      :        :                   :         
 GND*                         : AE20      :        :                   :         : 7         :                
 GND*                         : AE21      :        :                   :         : 7         :                
 GND*                         : AE22      :        :                   :         : 7         :                
-GND*                         : AE23      :        :                   :         : 7         :                
+LEDR[0]                      : AE23      : output : 3.3-V LVTTL       :         : 7         : Y              
 ~LVDS150p/nCEO~              : AE24      : output : 3.3-V LVTTL       :         : 6         : N              
 GND*                         : AE25      :        :                   :         : 6         :                
 GND                          : AE26      : gnd    :                   :         :           :                
@@ -556,7 +556,7 @@ NC                           : N21       :        :                   :         
 VCCIO5                       : N22       : power  :                   : 3.3V    : 5         :                
 GND*                         : N23       :        :                   :         : 5         :                
 GND*                         : N24       :        :                   :         : 5         :                
-GND+                         : N25       :        :                   :         : 5         :                
+SW[0]                        : N25       : input  : 3.3-V LVTTL       :         : 5         : Y              
 SW[1]                        : N26       : input  : 3.3-V LVTTL       :         : 5         : Y              
 GND+                         : P1        :        :                   :         : 1         :                
 GND+                         : P2        :        :                   :         : 1         :                
