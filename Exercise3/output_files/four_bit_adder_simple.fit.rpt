@@ -1,5 +1,5 @@
 Fitter report for four_bit_adder_simple
-Sat Sep 25 16:23:10 2021
+Sat Sep 25 20:22:14 2021
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -60,7 +60,7 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Fitter Summary                                                                       ;
 +------------------------------------+-------------------------------------------------+
-; Fitter Status                      ; Successful - Sat Sep 25 16:23:10 2021           ;
+; Fitter Status                      ; Successful - Sat Sep 25 20:22:14 2021           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; four_bit_adder_simple                           ;
 ; Top-level Entity Name              ; four_bit_adder_tester                           ;
@@ -2136,7 +2136,7 @@ Info (170194): Fitter routing operations ending: elapsed time is 00:00:00
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
     Info (170200): Optimizations that may affect the design's timing were skipped
-Info (11888): Total time spent on timing analysis during the Fitter is 0.14 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.16 seconds.
 Info (306004): Started post-fitting delay annotation
 Warning (306006): Found 5 output pins without output pin load capacitance assignment
     Info (306007): Pin "LEDR[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
@@ -2153,7 +2153,7 @@ Warning (169174): The Reserve All Unused Pins setting has not been specified, an
 Info (144001): Generated suppressed messages file C:/Users/mathias/Documents/Uni/2sem/DSD/journal3/DSDjournal3/Exercise3/output_files/four_bit_adder_simple.fit.smsg
 Info: Quartus II 64-Bit Fitter was successful. 0 errors, 419 warnings
     Info: Peak virtual memory: 4840 megabytes
-    Info: Processing ended: Sat Sep 25 16:23:10 2021
+    Info: Processing ended: Sat Sep 25 20:22:14 2021
     Info: Elapsed time: 00:00:05
     Info: Total CPU time (on all processors): 00:00:05
 

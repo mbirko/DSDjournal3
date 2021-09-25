@@ -482,9 +482,9 @@ set_global_assignment -name VHDL_FILE four_bit_adder.vhd
 set_global_assignment -name VECTOR_WAVEFORM_FILE singedWithCarry.vwf
 set_global_assignment -name VHDL_FILE four_bit_adder_tester.vhd
 set_global_assignment -name VHDL_FILE four_bit_adder_simple_tester.vhd
-set_global_assignment -name VECTOR_WAVEFORM_FILE unsignedSimple.vwf
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
 set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "C:/Users/mathias/Documents/Uni/2sem/DSD/journal3/DSDjournal3/Exercise3/singedWithCarry.vwf"
+set_global_assignment -name VECTOR_WAVEFORM_FILE funkNoCarry.vwf
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
