@@ -1,4 +1,4 @@
-|four_bit_adder_simple_tester
+|four_bit_adder_tester
 SW[0] => four_bit_adder:DUT.cin[0]
 SW[1] => four_bit_adder:DUT.a[0]
 SW[2] => four_bit_adder:DUT.a[1]
@@ -15,7 +15,7 @@ LEDR[3] <= four_bit_adder:DUT.sum[3]
 LEDR[4] <= four_bit_adder:DUT.cout
 
 
-|four_bit_adder_simple_tester|four_bit_adder:DUT
+|four_bit_adder_tester|four_bit_adder:DUT
 cin[0] => Add1.IN6
 cin[0] => Add1.IN7
 cin[0] => Add1.IN8
